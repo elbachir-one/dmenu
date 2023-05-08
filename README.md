@@ -45,7 +45,7 @@ sudo make clean install
 ### Void Linux:
 
 ```
-sudo xbps-install -S xorg base-devel libXft-devel libX11-devel libXinerama-devel\
+sudo xbps-install -S xorg base-devel libXft-devel libX11-devel libXinerama-devel
 harfbuzz-devel noto-fonts-emoji libXrender-devel
 ```
 
