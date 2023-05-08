@@ -4,7 +4,7 @@
 
 # ALPHA_B build of Dmenu - dynamic menu for X.
 
-![Dmenu](dmenu.png)
+![Dmenu](dmenu.jpg)
 
 The [suckless dynamic menu (Dmenu)](https://tools.suckless.org/dmenu) with some additional
 features that make it literally the best dynamic menu in the Void:
