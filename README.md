@@ -44,23 +44,26 @@ sudo make clean install
 
 ### Void Linux:
 
-`sudo xbps-install -S xorg base-devel libXft-devel libX11-devel libXinerama-devel harfbuzz-devel noto-fonts-emoji libXrender-devel`
+```
+sudo xbps-install -S xorg base-devel libXft-devel libX11-devel libXinerama-devel harfbuzz-devel noto-fonts-emoji libXrender-devel
+
+```
 
 ### Arch Linux:
 
-`sudo pacman -Sy xorg base-devel noto-fonts-emoji harfbuzz libxrender`
+```sudo pacman -Sy xorg base-devel noto-fonts-emoji harfbuzz libxrender```
 
 ### Debian/Ubuntu:
 
-`sudo apt install build-essential libx11-dev libxinerama-dev suckless-tools libxft-dev`
+```sudo apt install build-essential libx11-dev libxinerama-dev suckless-tools libxft-dev```
 
 ### FreeBSD:
 
-`doas pkg install pkgconfig noto-fonts-emoji`
+```doas pkg install pkgconfig noto-fonts-emoji```
 
 ### OpenBSD:
 
-`doas pkg_add pkgocnfig noto-fonts-emoji`
+```doas pkg_add pkgocnfig noto-fonts-emoji```
 
 On OpenBSD, be sure to edit `config.mk` first and remove `-lrt` from the
 `$LIBS` before compiling.
