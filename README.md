@@ -35,7 +35,6 @@ git clone https://github.com/elbachir-one/dmenu
 cd dmenu
 make
 sudo make clean install
-
 ```
 
 `make` and `fontconfig` is required to build this.
