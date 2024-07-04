@@ -20,11 +20,11 @@ The center or grid location and the alpha patch, which further enhances its appe
 
 ## Patches:
 
-+ Alpha
-+ Center
-+ Dracula
-+ Grid
-+ Grid Nav
++ [Alpha](https://tools.suckless.org/dmenu/patches/alpha/)
++ [Center](https://tools.suckless.org/dmenu/patches/center/)
++ [Dracula](https://tools.suckless.org/dmenu/patches/dracula/)
++ [Grid](https://tools.suckless.org/dmenu/patches/grid/)
++ [Grid Nav](https://tools.suckless.org/dmenu/patches/gridnav/)
 
 ## Installation:
 
@@ -34,7 +34,7 @@ You should have xlib header and harfbuzz-devel files and noto-fonts-emoji instal
 git clone https://github.com/elbachir-one/dmenu
 cd dmenu
 make
-sudo make clean install
+sudo make install
 ```
 
 `make` and `fontconfig` is required to build this.
